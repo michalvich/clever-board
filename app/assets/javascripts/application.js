@@ -15,3 +15,4 @@
 //= require angular/main.js
 //= require_tree ./angular
 //= require_tree .
+//= require angular-ui-bootstrap

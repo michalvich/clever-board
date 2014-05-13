@@ -1,1 +1,1 @@
-var app = angular.module("CleverBoard", ['ngResource']);
+var app = angular.module("CleverBoard", ["ui.bootstrap", 'ngResource']);
