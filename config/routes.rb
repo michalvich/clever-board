@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+
+  scope :api do
+    resources :projects, only: [:index], defaults: {format: :json}
+  end
+
   get 'board/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
